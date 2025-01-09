@@ -191,3 +191,4 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Swagger-Editor]: https://editor.swagger.io
 [Doing API-First development]: https://www.jhipster.tech/documentation-archive/v8.8.0/doing-api-first-development/
 # gatewayconsul
+# serviceCommande
