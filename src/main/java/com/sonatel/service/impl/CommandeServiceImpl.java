@@ -39,12 +39,6 @@ public class CommandeServiceImpl implements CommandeService {
         commande = commandeRepository.save(commande);
         return commandeMapper.toDto(commande);
     }
-    public CommandeDTO saves(CommandeDTO commandeDTO) {
-        LOG.debug("Request to save Commande : {}", commandeDTO);
-        Commande commande = commandeMapper.toEntity(commandeDTO);
-        commande = commandeRepository.save(commande);
-        return commandeMapper.toDto(commande);
-    }
 
 
     @Override
